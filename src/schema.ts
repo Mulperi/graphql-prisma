@@ -134,7 +134,7 @@ export const RootMutationType = new GraphQLObjectType({
             })
         },
         updateTask: {
-            type: UserType,
+            type: TaskType,
             description: "Edit an existing Task.",
             args: {
                 id: { type: GraphQLNonNull(GraphQLInt) },
