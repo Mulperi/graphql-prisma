@@ -3,10 +3,12 @@
 Install modules and generate Prisma client based on `prisma/schema.prisma`.
 
 ```
-npm install && npx prisma generate
+npm install && npx prisma generate && npm start
 ```
 
-To view the database state, run:
+To make GraphQL queries with the built in UI, open browser at: `http://localhost:4000/graphql`.
+
+To view the database contents, run:
 
 ```
 npx prisma studio
